@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+}
+body{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    margin: 57px 0px;
+    margin-bottom: 180px;
+}
+nav button{
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px 30px;
+    padding-bottom: 28px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+}
+nav button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main h2{
+    font-family: "Poppins", sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+main p{
+    font-family: "Open Sans", sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px
+}
+main button{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 100px;
+    border-radius: 100px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    margin-bottom: 130px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.03ms ease;
+}
+main button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+main img{
+    width: 71%;
+    margin-bottom: 100px;
+}
+main .status{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin-bottom: 100px;
+}
+main .status img{
+    height: 40px;
+    width: auto;
+    margin: 0px;
+}
+main .status .communities{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .status .communities h3{
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+main .status .communities p{
+    color: #818A92;
+    align-self: center;
+    font-size: 25px;
+}
+
+
+main .status .Messages{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+main .status .Messages h3{
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+main .status .Messages p{
+    color: #818A92;
+    align-self: center;
+    font-size: 25px;
+}
+.section1 img{
+    height: 100%;
+    width: 100%;
+}
+.section1 {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 200px;
+}
+.section1 .content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6FBFF;
+}
+.section1 .content img{
+    padding: 50px 0px;
+    height: 500px;
+    width: auto;
+}
+.section1 .content h3{
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.section1 .content p{
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section2 img{
+    height: 400px;
+    width: auto;
+}
+.section2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.section2 .contant h3{
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.section2 .content p{
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section3 img{
+    height: 100%;
+    width: 100%;
+}
+.section3 {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 150px;
+}
+.section3 .content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6FBFF;
+}
+.section3 .content img{
+    padding: 10px 0px;
+    height: 400px;
+    width: auto;
+}
+.section3 .content h3{
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.section3 .content p{
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ready{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ready button{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 100px;
+    border-radius: 100px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    margin-bottom: 130px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+footer{
+    display: flex;
+    flex-flow: column;
+}
+footer img{
+    height: 100%;
+    width: 100%;
+}
+
+footer .content {
+    padding-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    background-color: #00252E;
+}
+footer .content .contant-us{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 10px;
+    color: hsl(207, 100%, 98%);
+}
+footer .content .contant-us .logo{
+    align-self: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+footer .content .contant-us .logo img{
+    height: 50px;
+    filter: brightness(0) invert(1);
+    width: auto;
+}
+footer .content .contant-us .logo h1{
+    font-size: 50px;
+    margin: 0px;
+}
+footer .content .contant-us .phone{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: hsl(207, 100%, 98%);
+}
+footer .content .contant-us .phone p{
+    margin: 0px;
+    font-size: 18px;
+}
+footer .content .contant-us .phone i{
+    font-size: 20px;
+}
+footer .content .contant-us .email{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: hsl(207, 100%, 98%);
+}
+footer .content .contant-us .email p{
+    margin: 0px;
+    font-size: 18px;
+}
+footer .content .contant-us .email i{
+    font-size: 20px;
+}
+
+footer .content .contant-us .social {
+    align-self: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: hsl(207, 100%, 98%);
+    padding-bottom: 100px;
+    align-self: flex-start;
+}
+footer .content .contant-us .social i{
+    margin-right: 20px;
+}
+footer .content .send-email{
+    color: hsl(207, 100%, 98%);
+    margin-right: 100px;
+    align-self: flex-start;
+}
+footer .content .send-email h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .content .send-email form{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    height: 60px;
+}
+footer .content .send-email form input{
+    margin-right: 40px;
+    width: 350px;
+    border-radius: 10px;
+}
+footer .content .send-email form button{
+    color: hsl(207, 100%, 98%);
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: hsl(322, 100%, 66%);
+}
